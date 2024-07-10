@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite NZ", cursive;
+    /* font-family: "Rajdhani", sans-serif; */
+    /* font-family: "Montserrat", sans-serif; */
+
+
+
+
+}
+
+nav {
+    height: 50px;
+    background-color: white;
+    /* color: white; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav h4 {
+    /* font-family: "Montserrat", sans-serif; */
+    margin: 4px;
+    color: rgb(13, 214, 214);
+
+    font-size: larger;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+
+/* container */
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.container .tulisan {
+    width: 50%;
+    /* background-color: aqua; */
+    margin-top: 100px;
+}
+
+.container .tulisan h4,
+h3,
+p {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.tulisan h3 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+button {
+    background-color: rgb(17, 194, 194);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.foto {
+    background-color: rgb(13, 214, 214);
+    border-radius: 50%;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ==content=== */
+
+
+.content {
+    /* height: 500px; */
+    background-color: rgb(13, 214, 214);
+    height: 500px;
+    /* margin: 30px; */
+}
+
+.content2 h3,
+.content2 p {
+    text-align: center;
+    color: white;
+}
+
+.content2 {
+    background-color: rgb(13, 214, 214);
+    width: 80%;
+    margin: 0px auto;
+}
+
+.content .a {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.a .satu{
+    width: 50%;
+}
+
+
+
+.a p,
+.a h3 {
+    text-align: start;
+    margin-left: 30px;
+    width: 90%;
+
+}
+
+
+/* === project === */
+.project h3,
+.project p {
+    text-align: center;
+    width: 80%;
+    margin: 5px auto;
+
+}
+
+.project h3 {
+    margin: 0 auto;
+}
+
+.project {
+    width: 80%;
+    margin: 30px auto;
+    /* background-color: chartreuse; */
+    /* height: 900px; */
+}
+
+
+.thumbnail {
+    width: 50%;
+    /* height: 300px; */
+    margin: 10px;
+    background-color: white;
+    margin-bottom: 0;
+}
+  .thumbnail button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+  }
+
+.thumbnail img {
+    width: 100%;
+}
+
+.project .a {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+/* galery */
+
+.gl {
+    /* margin-top: 5px; */
+    background-color: rgb(13, 214, 214);
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+}
+
+.galery {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.b {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.b .t {
+    width: 25%;
+
+}
+
+.t img {
+    width: 90%;
+    height: 162px;
+}
+
+.galery h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.galery p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+/* skilsss */
+
+.skil {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.k {
+    display: flex;
+    justify-content: start;
+    /* background-color: brown; */
+    padding: 30px;
+}
+
+.sigma {
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.sigma img {
+    width: 50%;
+    height: 100px;
+}
+
+/* contact */
+.c {
+
+    background-color: rgb(4, 114, 114);
+
+}
+
+.contact {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+    padding-top: 5px;
+    /* background-color: aqua; */
+}
+
+.contact h3 {
+    text-align:center ;
+    margin-top: 20px;
+}
+
+.contact p {
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+.fb {
+    display: flex;
+    margin: 10px;
+}
+
+.media {
+    margin-bottom: 30px;
+}
+
+.grid1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tag p {
+    text-align: start;
+}
+
+
+
+.ft {
+    background-color: black
+}
+
+footer {
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+footer h3 {
+    text-align: start;
+    padding: 10px;
+}
+
+footer p {
+
+    padding: 10px;
+}
+
+.teman {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive web desingn */
+/* ukuran tablets */
+
+@media screen and (max-width:794px) {
+
+    .content .a {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 100px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .a .satu{
+    width: 100%;
+}
+
+    nav ul li a {
+        display: none;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .foto {
+        background-color: rgb(13, 214, 214);
+        border-radius: 50%;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .tulisan {
+        width: 70%;
+        /* background-color: aqua; */
+        margin-top: 100px;
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width:630px) {
+    .container .tulisan {
+        width: 90%;
+        /* background-color: aqua; */
+        margin-top: 100px;
+    }
+
+    .foto {
+        background-color: rgb(13, 214, 214);
+        border-radius: 50%;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .tulisan h3 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .content .a {
+        display: flex;
+        justify-content: space-between;
+        /* margin: 30px; */
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+
+    .content2 h3,
+    .content2 p {
+        text-align: start;
+        color: white;
+        width: 100%;
+        /* margin-top: 20px; */
+    }
+
+    .content2 .dua {
+        margin-top: 30px;
+    }
+
+
+    /* === project === */
+    .project h3,
+    .project p {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        /* margin-bottom: 30px; */
+
+    }
+
+    .project p {
+        text-align: center;
+        width: 80%;
+        /* margin:10px auto; */
+        /* margin-bottom: 70px; */
+        font-size: small;
+    }
+
+    .project {
+        width: 90%;
+        margin: 10px auto;
+        /* background-color: blue; */
+
+    }
+
+ 
+    .thumbnail {
+        width: 90%;
+        /* height: 300px; */
+        /* margin-bottom: 20px; */
+        /* background-color: blue; */
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thumbnail img {
+        /* height: 400px; */
+        width: 100%;
+        justify-content: center;
+    }
+
+
+
+   
+    .project .a {
+        display: flex;
+        /* margin-top: 10p; */
+        flex-wrap: wrap;
+       /* background-color: aqua; */
+       justify-content: center;
+       align-items: center;
+    }
+
+
+
+
+    /* galery */
+
+    .galery {
+        width: 90%;
+        margin: auto;
+    }
+
+    .b {
+        display: flex;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .b .t {
+        width: 50%;
+
+    }
+
+    .t img {
+        width: 100%;
+        height: 162px;
+    }
+
+    /* contact */
+    .grid1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+
+
+/* ukuran 4k */
+@media screen and (min-width:2560px) {
+
+.content {
+    /* height: 500px; */
+    background-color: rgb(13, 214, 214);
+    height: 800px;
+    /* margin: 30px; */
+}
+.a .satu{
+    width: 50%;
+}
+    
+}
